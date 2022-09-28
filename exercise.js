@@ -12,7 +12,21 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const substrGen = (str) => {
     /* Only make changes below this comment */
-    
+    let str1= str.split("");
+    let array=[];
+    let arr=[];
+    let counter=1;
+    for(let i=0; i<str1.length;i++){
+        array.push(str1[i])
+        arr=str1[i];
+        for(let j=counter;j<str1.length;j++){
+                 arr+=str1[j];
+                array.push(arr);
+        }
+        counter++;
+    }
+    /* Only make changes below this comment */
+    return array;
     /* Only make changes below this comment */
 }
 
