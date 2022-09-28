@@ -12,9 +12,15 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const substrGen = (str) => {
     /* Only make changes below this comment */
+    string.indexOf(substring []);
     
+    for (let i = 0; i < arrC.length; i++) { //create a for loop inside a for loop   
+        for (let j = 0; j < arrC.length; j++) {
+
+        }
+    }
     /* Only make changes below this comment */
-}
+
 
 
 
