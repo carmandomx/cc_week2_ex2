@@ -14,6 +14,10 @@ const substrGen = (str) => {
   let subArrStr = new Array(); //New string for new value of substring  that we will be create.
   let subEstring = new String(); //New array for storage our new subarrays.
 
+  if (typeof str !== "string" || !str) {
+    return "Only string values";
+  }
+
   //first iteration for values of "str" string.
   for (let i = 0; i < str.length; i++) {
     //second iteration for values of "str" string.
