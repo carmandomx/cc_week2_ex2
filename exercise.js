@@ -11,9 +11,15 @@
 
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const substrGen = (str) => {
-    /* Only make changes below this comment */
-    
-    /* Only make changes below this comment */
+    let finalArray=[];
+    //Two for cycles are need to obtain the starting position and the final position of the substring
+    for(let i=0;i<str.length;i++){
+        for(let j=i; j<str.length;j++){
+            finalArray.push(str.slice(i,(j+1)))
+        }
+    }
+
+    return finalArray;
 }
 
 
