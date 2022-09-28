@@ -31,27 +31,5 @@ const substrGen = (str) => {
   /* Only make changes below this comment */
 };
 
-console.log(substrGen("abc")); //[ 'a', 'ab', 'abc', 'b', 'bc', 'c' ]
-console.log(substrGen("lagann"));
-/*       ['l',    'la',    'lag',
-        'laga', 'lagan', 'lagann',
-        'a',    'ag',    'aga',
-        'agan', 'agann', 'g',
-        'ga',   'gan',   'gann',
-        'a',    'an',    'ann',
-        'n',    'nn',    'n'
-      ]*/
-console.log(substrGen("abcabcbb"));
-/*    [ 'a',      'ab',     'abc',     'abca',
-        'abcab',  'abcabc', 'abcabcb', 'abcabcbb',
-        'b',      'bc',     'bca',     'bcab',
-        'bcabc',  'bcabcb', 'bcabcbb', 'c',
-        'ca',     'cab',    'cabc',    'cabcb',
-        'cabcbb', 'a',      'ab',      'abc',
-        'abcb',   'abcbb',  'b',       'bc',
-        'bcb',    'bcbb',   'c',       'cb',
-        'cbb',    'b',      'bb',      'b'
-      ] */
-
 /** DO NOT CHANGE THE LINE BELOW **/
 module.exports.substrGen = substrGen;
