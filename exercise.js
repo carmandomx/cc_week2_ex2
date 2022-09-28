@@ -25,7 +25,7 @@ const substrGen = (str) => {
         }
     }
 
-    console.log(nArray);
+    
     //we return the substrings resulted
     return(nArray);
     
