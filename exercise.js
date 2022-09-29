@@ -12,6 +12,20 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const substrGen = (str) => {
     /* Only make changes below this comment */
+    let workarr=str.split('');
+    let finalarray=[];
+    let temparray=[];
+    for(let i=0; i<workarr.length; i++){
+        temparray=[];
+
+        for(let j=i; j<workarr.length; j++){
+            temparray.push(workarr[j]);
+            finalarray.push(temparray.join('')); //This was the tricky part
+        }
+
+    }
+
+    return finalarray;
     
     /* Only make changes below this comment */
 }
