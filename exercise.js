@@ -8,17 +8,18 @@
 
 */
 
-
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const substrGen = (str) => {
-    /* Only make changes below this comment */
-    
-    /* Only make changes below this comment */
-}
-
-
-
-
+  /* Only make changes below this comment */
+  const substring = [];
+  for (let i = 0; i < str.length; i++) {
+    for (let j = i + 1; j <= str.length; j++) {
+      substring.push(str.slice(i, j));
+    }
+  }
+  return substring;
+};
+/* Only make changes below this comment */
 
 /** DO NOT CHANGE THE LINE BELOW **/
 module.exports.substrGen = substrGen;
