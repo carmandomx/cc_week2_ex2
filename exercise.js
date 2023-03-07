@@ -12,6 +12,7 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const substrGen = (str) => {
     /* Only make changes below this comment */    
+    
     const arr = [];
 
     // First for to iterate in the main string
