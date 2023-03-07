@@ -11,11 +11,29 @@
 
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const substrGen = (str) => {
-    /* Only make changes below this comment */
+    /* Only make changes below this comment */    
+    
+    const arr = [];
+
+    // First for to iterate in the main string
+    for (let i = 0; i < str.length; i++) {
+        // The frist letter
+        let combinations = str.charAt(i);
+        arr.push(combinations);
+
+        // second for to iterate in the substrings
+        for (let j = i + 1; j < str.length; j++) {
+            // Add combinations 
+            combinations += str.charAt(j);
+            // Push it to the new array
+            arr.push(combinations);
+        }
+    }
     
     /* Only make changes below this comment */
+    // Return array with all combinations
+    return arr;
 }
-
 
 
 
