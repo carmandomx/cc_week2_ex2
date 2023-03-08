@@ -12,7 +12,16 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const substrGen = (str) => {
     /* Only make changes below this comment */
-    
+    const subString = []
+
+    for (let i = 0; i < str.length; i++) {//Iterate all over the elements
+        let sub = "";//Storage the elements
+        for (let j = i; j < str.length; j++) {//Iterate all over again in the i position
+            sub += str[j]//add the elements
+            subString.push(sub)//add the elements to the array
+        }
+    }
+    return subString
     /* Only make changes below this comment */
 }
 
